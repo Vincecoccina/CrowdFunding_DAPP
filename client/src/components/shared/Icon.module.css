@@ -1,0 +1,18 @@
+
+.link{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activeLink{
+    background-color: #2c2f32;
+}
+
+.imgLink{
+    height: 50%;
+    width: 50%;
+}
