@@ -1,0 +1,14 @@
+button{
+    width: 180px;
+    height: 45px;
+    color: white;
+    background-color: #f213a4;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
+}
