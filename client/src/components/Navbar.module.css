@@ -1,57 +1,115 @@
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15px;
-    width: 100%;
-    height: 100px;
-    background-color: #131417;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  width: 100%;
+  height: 100px;
+  background-color: #131417;
 }
 
-.serachIconContainer{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.serachIconContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.serachIconContainer img{
-    width: 40px;
+.serachIconContainer img {
+  width: 40px;
 }
-.searchContainer{
-    display: flex;
-    align-items: center;
+.searchContainer {
+  display: flex;
+  align-items: center;
 }
 
-.searchContainer input{
-    height: 31px;
+.searchContainer input {
+  height: 31px;
+  width: 150px;
+  background-color: #333;
+  color: rgb(109, 109, 109);
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+input:hover {
+  border: 1px solid #f213a4;
+}
+
+input:focus {
+  outline: none;
+}
+
+.containerBtn {
+  display: none;
+}
+
+.iconMobile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.containerMobile {
+  position: relative;
+}
+
+.sideBarMobile {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+.containerAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+}
+
+.containerBurger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerBurger img {
+  width: 30px;
+}
+
+.btnMobile {
+  position: absolute;
+  top: 280px;
+  left: 5px;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 420px) {
+  .searchContainer input {
     width: 250px;
-    background-color: #333;
-    color: rgb(109, 109, 109);
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
+  }
+
+  .serachIconContainer {
+    gap: 20px;
+  }
 }
 
-input:hover{
-    border: 1px solid #f213a4;
-}
-
-input:focus{
-    outline: none;
-}
-
-.containerBtn{
+@media (min-width: 700px) {
+  .containerBtn {
     display: flex;
     align-items: center;
+    gap: 30px;
+  }
+
+  .containerMobile {
+    display: none;
+  }
+
+  .sideBarMobile {
+    display: none;
+  }
 }
-
-
-.containerAvatar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #333;
-    padding: 10px;
-    border-radius: 50%;
-}
-

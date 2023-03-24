@@ -17,7 +17,7 @@ body{
 }
 
 aside{
-    flex: 1;
+    display: none;
 }
 
 main{
@@ -29,8 +29,17 @@ a{
 }
 
 
+/* MEDIA QUERY */
+
+@media (min-width: 700px){
+ aside{
+    display: flex;
+    flex: 1;
+ }
+
+}
 
 
 
 
-/* color: #f213a4; */
+
