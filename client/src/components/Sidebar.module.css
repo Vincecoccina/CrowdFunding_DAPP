@@ -3,7 +3,7 @@
   flex-direction: column;
   position: sticky;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #131417;
   padding: 30px;
 }

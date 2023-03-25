@@ -13,7 +13,7 @@ const Sidebar = () => {
     <div className={classes.container}>
       <h4 className={classes.sidebarTitle}>CrownFunding</h4>
       <div className={classes.linkContainer}>
-        <NavLink to="/details" className={() => isActive("/details")}>
+        <NavLink to="/" className={() => isActive("/details")}>
           Dashboard
         </NavLink>
         <NavLink to="/addProject" className={() => isActive("/addProject")}>
